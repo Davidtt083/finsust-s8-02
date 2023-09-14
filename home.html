@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Page Transitions</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+
+
+
+  <div id="div1"></div>
+  <div class="botonera" id="botonera">
+    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">Finanzas sustentables</div>
+    <div class="conexto" id="btn3" onclick="mostrarp(2,3,2)">Finanzas <br>verdes</div>
+    <div class="conexto" id="btn4" onclick="mostrarp(3,4,3)">Finanzas medioambientales</div>
+    <div class="conexto" id="btn5" onclick="mostrarp(4,5,4)">Finanzas del carbono</div>
+  </div>
+  <div class="conexto btn1 hide" id="btn1">Comenzar</div>
+
+  <div class="texto1 hide align-items-center" id="text1">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Finanzas sustentables</b><br><br>
+        <p class="justo">
+          Práctica de crear valor económico y social a través de modelos, productos y mercados financieros que son
+          sostenibles en el tiempo. Considera los tres niveles ASG.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text2">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Finanzas verdes</b><br><br>
+        <p class="justo">
+          Están orientadas a la mejora del medio ambiente y el crecimiento económico. Incorporan nuevas tecnologías,
+          productos financieros y servicios que consideren al medio ambiente, eficiencia energética y la reducción de
+          emisiones contaminantes para un crecimiento verde bajo en emisiones de carbono.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text3">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Finanzas medioambientales</b><br><br>
+        <p class="justo">
+          Consideran el daño ambiental como un riesgo financiero. No financian proyectos que dañen al medio ambiente. Es
+          un concepto más amplio que las finanzas verdes ya que promueven inversiones directamente relacionadas con el
+          medio ambiente ecológico (aire, agua, suelo, etcétera).
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text4">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Finanzas del carbono</b><br><br>
+        <p class="justo">
+          Su objetivo es reducir las emisiones de dióxido de carbono y otros gases de efecto invernadero (GEI). A través
+          del mercado de emisiones, el financiamiento hacia la reducción de emisiones incluye proyectos y servicios, así
+          como el desarrollo de tecnología para empresas con actividades “verdes”.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="contelot hide" id="lot1"><img class="ima" src="images\1.png" alt=""></div>
+  <div class="contelot hide" id="lot2"><img class="ima" src="images\2.png" alt=""></div>
+  <div class="contelot hide" id="lot3"><img class="ima" src="images\3.png" alt=""></div>
+  <div class="contelot hide" id="lot4"><img class="ima" src="images\4.png" alt=""></div>
+
+  <!-------------scripts------------------>
+
+
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
