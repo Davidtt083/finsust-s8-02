@@ -107,9 +107,9 @@ a {
 .conexto {
   background-color: rgba(0, 170, 191, 1);
   color: #ffffff;
-  width: 158px;
-  height: 60px;
-  font-size: 18px;
+  width: 164px;
+  height: 71px;
+  font-size: 14px;
   /* justify-content: center; */
   border: solid #ffffff 1px;
   border-radius: 5px;
@@ -627,11 +627,7 @@ a {
 }
 
 .btn2 {
-  background-image: url("circ-02.jpg");
-  background-size: 321px 242px;
-  transition: all 0.5s;
-  margin-top: 165px;
-  margin-left: -86px;
+ padding-top: 20px;
 }
 
 .btn2:hover {
