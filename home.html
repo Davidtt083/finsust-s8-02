@@ -24,22 +24,18 @@
 
   <div id="div1"></div>
   <div class="botonera" id="botonera">
-    <div class="conexto btn2" id="btn2" onclick="mostrarp(1,2,1)">GRI (Global Reporting Initiative)</div>
-    <div class="conexto" id="btn3" onclick="mostrarp(2,3,2)">SASB (Sustainability Accounting Standard Board)</div>
-    <div class="conexto" id="btn4" onclick="mostrarp(3,4,3)">TCFD (Task Force on Climate-related Financial Disclosure)
-    </div>
-    <div class="conexto" id="btn5" onclick="mostrarp(4,5,4)">ISSB (International Sustainability Standard Board)</div>
+    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">Principios de pensamiento integrado</div>
+    <div class="conexto" id="btn3" onclick="mostrarp(2,3,2)">Marco de reporte integrado</div>
+    <div class="conexto btn2" id="btn4" onclick="mostrarp(3,4,3)">Estándares SASB</div>
   </div>
   <div class="conexto btn1 hide" id="btn1">Comenzar</div>
 
   <div class="texto1 hide align-items-center" id="text1">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">GRI (Global Reporting Initiative)</b><br><br>
+      <div class="parr">
         <p class="justo">
-          Los GRI hablan de temas de sostenibilidad que reflejan los impactos de la organización en el medio ambiente y
-          la sociedad. Esto se relaciona con la materialidad de impacto, indicando quiénes son los grupos de interés y
-          el objetivo que consiste en comprender las contribuciones positivas y negativas de la organización al
-          desarrollo sostenible.
+          Permiten la comprensión de la creación de valor en el largo plazo usando múltiples capitales para hacer la
+          toma de decisión de la empresa.
         </p>
       </div>
 
@@ -48,11 +44,10 @@
 
   <div class="texto1 hide align-items-center" id="text2">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">SASB (Sustainability Accounting Standard Board)</b><br><br>
+      <div class="parr">
         <p class="justo">
-          Por su parte los estándares SASB abordan el tema de información financiera sobre sostenibilidad incluyendo los
-          temas clave para la creación de valor. Hablan de materialidad financiera, contemplando a los inversores y
-          tienen el objetivo de comprender los impactos de la sostenibilidad sobre el valor de la organización.
+          Expone la comunicación eficaz de estrategia, gobernanza y desempeño analizando múltiples capitales para hacer
+          una divulgación integrada.
         </p>
       </div>
 
@@ -61,36 +56,60 @@
 
   <div class="texto1 hide align-items-center" id="text3">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">TCFD (Task Force on Climate-related Financial Disclosure)</b><br><br>
+      <div class="parr">
         <p class="justo">
-          Desarrolla recomendaciones sobre los tipos de información que las empresas deben divulgar para ayudar a los
-          inversionistas, prestamistas y suscriptores de seguros a evaluar y cotizar adecuadamente un conjunto
-          específico de riesgos relacionados con el cambio climático.
+          Establece la información e indicadores comparables en temas ASG por industria con la finalidad de contribuir a
+          la toma de decisión del inversionista.
         </p>
       </div>
 
     </div>
   </div>
 
-  <div class="texto1 hide align-items-center" id="text4">
-    <div class="intertexto">
-      <div class="parr"><b class="tituparr">ISSB (International Sustainability Standard Board)</b><br><br>
-        <p class="justo">
-          Y, los IFRS a través de los IASB e ISSB, proporcionan información financiera que se refleja en los estados
-          financieros.
-        </p>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="contelot hide" id="lot1"><img class="ima" src="images\1.png" alt=""></div>
-  <div class="contelot hide" id="lot2"><img class="ima" src="images\2.png" alt=""></div>
-  <div class="contelot hide" id="lot3"><img class="ima" src="images\3.png" alt=""></div>
-  <div class="contelot hide" id="lot4"><img class="ima" src="images\4.png" alt=""></div>
+  <div class="contelot hide" id="lot1"></div>
+  <div class="contelot hide" id="lot2"></div>
+  <div class="contelot hide" id="lot3"></div>
 
   <!-------------scripts------------------>
 
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot1'),
+      path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol2 = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot2'),
+      path: 'pant3.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot3'),
+      path: 'pant4.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
 
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
